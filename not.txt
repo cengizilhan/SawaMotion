@@ -1,0 +1,21 @@
+animation names.
+Fade in/out
+Zoom in/out
+Slide left/right/up/down
+Bounce
+Flip
+Rotate
+Scale
+Shake
+Wipe
+Fly in/out
+Dissolve
+Spin
+Pop-up
+Flash
+Glitch
+Swipe
+Boomerang
+Blink
+Flicker
+Glint
