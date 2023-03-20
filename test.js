@@ -312,36 +312,45 @@ if (document.getElementsByClassName('animate-on-scroll-skew').length > 0) {
     })
 }
 
-//path
-if (document.getElementsByClassName('animate-on-scroll-path').length > 0) {
-    gsap.utils.toArray(".animate-on-scroll-path").forEach(element => {
-        gsap.from(element, {duration: 1, motionPath: {path: ".animate-on-scroll-path-path", align: ".animate-on-scroll-path-path", autoRotate: true}, ease: "sine.inOut", scrollTrigger: {
-            trigger: element,
-            start: "top 80%",
-            toggleActions: "play none none reverse"
-        }});
-    })
-}
 
-//draw svg
-if (document.getElementsByClassName('animate-on-scroll-svg').length > 0) {
-    gsap.utils.toArray(".animate-on-scroll-svg").forEach(element => {
-        let length = element.getTotalLength();
-        element.style.strokeDasharray = length;
-        element.style.strokeDashoffset = length;
-        gsap.fromTo(element, {strokeDashoffset: length}, {duration: 1, strokeDashoffset: 0, ease: "sine.inOut", scrollTrigger: {
-                trigger: element,
-                start: "top 80%",
-                toggleActions: "play none none reverse"
-            }});
-    })
-}
 /*
 <div><h1 class="animate-on-scroll-fade">animate-on-scroll-fade</h1></div>
 <div><h1 class="animate-on-scroll-pop-up">animate-on-scroll-fade-out</h1></div>
 
 
 * */
+
+/*
+Fade In From Top: The element fades in while sliding down from the top of the screen.
+
+Fade In From Bottom: The element fades in while sliding up from the bottom of the screen.
+
+Fade In From Left: The element fades in while sliding in from the left side of the screen.
+
+Fade In From Right: The element fades in while sliding in from the right side of the screen.
+
+Slide In From Top: The element slides in from the top of the screen.
+
+Slide In From Bottom: The element slides in from the bottom of the screen.
+
+Slide In From Left: The element slides in from the left side of the screen.
+
+Slide In From Right: The element slides in from the right side of the screen.
+
+Scale In: The element grows from a small size to its full size while fading in.
+
+Bounce In: The element bounces a few times before settling into its final position, giving it a playful and dynamic feel.
+
+Flip In: The element flips over from one side to the other, revealing itself in a surprising and eye-catching way.
+
+Rotate In: The element rotates into view, adding a sense of movement and energy to the animation.
+
+Zoom In: The element zooms in from a larger size, giving it a dramatic and attention-grabbing effect.
+
+Elastic In: The element stretches and bounces before settling into its final position, giving it a lively and organic feel.
+
+Glitch In: The element appears to glitch or flicker before settling into its final position, giving it a futuristic and technological feel.
+ */
 
 
 
