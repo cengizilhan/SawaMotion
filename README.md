@@ -4,7 +4,9 @@
 This is a library based on GSAP.js. You can use it by adding a class to an element and triggering animation with the ScrollTrigger. The animation starts when the object appears during scrolling.
 
 
-## Example
+## Example & Demo
+
+Demo link: https://cengizilhan.com/sawaMotion/index.html
 
 To use it, simply add the following class, for example:
 
