@@ -1,3 +1,9 @@
+/* 
+Made by Sawacrow
+https://github.com/sawacrow/SawaMotion/
+https://www.buymeacoffee.com/sawacrow If you wanna support , you can buy me a pizza :)
+*/
+
 gsap.registerPlugin(ScrollTrigger);
 
 //fade in
